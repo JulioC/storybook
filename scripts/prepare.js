@@ -70,6 +70,7 @@ function logError(type, packageJson, errorLogs) {
 }
 
 const cjsAndEsmPackage = [
+  /addons/,
   /lib\/api$/,
   /lib\/addons$/,
   /lib\/channel-postmessage$/,
